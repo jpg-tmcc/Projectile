@@ -46,7 +46,7 @@
 
             Object target = new Object();
            
-            for(int i = 0; i < 20; i++) 
+            for(int i = 0; i < 40; i++) 
             {
                 if (rng.Next() % 2 == 0)
                 {
