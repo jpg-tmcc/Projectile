@@ -11,6 +11,8 @@ namespace Projectile
         public static int ArrowCount { get; private set; }
         public double KnockdownChance { get; private set; }
 
+        public double Sharpness {  get; private set; }
+
         private static Random rng = new Random();
         /**
          * The static constructor is called only once, and before any instance constructor 
